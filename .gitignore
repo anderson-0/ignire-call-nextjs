@@ -1,3 +1,5 @@
 node_modules
 .gitattributes
 .next
+.env
+.next
