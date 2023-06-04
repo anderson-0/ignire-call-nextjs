@@ -43,7 +43,7 @@ export default function Register() {
     if (typeof username === 'string') {
       setValue('username', username)
     }
-  }, [router.query?.username, setValue])
+  }, [router.query, setValue])
 
   async function handleRegister(data: RegisterFormData) {
     console.log(data)

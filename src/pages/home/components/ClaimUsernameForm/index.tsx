@@ -32,7 +32,6 @@ export function ClaimUsernameForm() {
     console.log(data)
     const { username } = data
     router.push(`/register?username=${username}`)
-
   }
 
   return (
